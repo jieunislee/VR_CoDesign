@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900');
+
+body{
+    margin: 0;
+    font-family: 'Nunito', 'Roboto', sans-serif;
+    overflow: hidden;
+}
+div{
+  box-sizing: border-box;
+  cursor: default;
+}
+input, select, option{
+  font-family: 'Nunito', 'Roboto', sans-serif;
+
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+  outline: 0;
+}
+hr{
+  border: none;
+  border-bottom: 1px solid #333;
+  margin-bottom: 24px;
+}
+
+svg{
+  font-family: 'Nunito', 'Roboto', sans-serif;
+}
+
+
+.titlebar{
+  height: 48px;
+  background-color: #3c429b;
+  z-index: 3;
+}
+
+.titlebar-logo{
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 48px;
+  padding-left: 20px;
+  vertical-align: middle;
+  display: inline-block;;
+  float:left;
+}
+
+.titlebar-btn{
+  display: inline-block;
+  padding:0;
+  font-size: 12px;
+  border: none;
+  background: none;
+  color:#fff;
+  cursor:pointer;
+  float:left;
+  padding-right: 5px;
+}
+
+.titlebar-btn:hover{
+  color: #f22f7e;
+}
+
+.titlebar-btn.active{
+  color: #f22f7e;
+}
+
+.titlebar-btn i{
+  font-size: 24px;
+  line-height:36px;
+}
+
+.titlebar-btn-text{
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  color:#fff;
+  line-height:36px;
+  float:left;
+  padding-right:10px;
+}
+
+.container{
+  position: absolute;
+  height: calc(100vh - 120px);
+  width: 250px;
+  background-color: #eeeeee;
+  z-index:2;
+  padding:20px 10px 10px 20px;
+}
+
+.component-ul{
+  display:inline-block;
+  list-style: none;
+  padding:0px;
+  width:230px;
+  margin-bottom:0px;
+  font-size:14px;
+}
+
+ul.component-ul li{
+  background-color: none;
+  font-size: 12px;
+  margin: 5px;
+}
+
+.component-ul-text{
+  font-size:12px;
+}
